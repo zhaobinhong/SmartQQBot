@@ -30,6 +30,12 @@ def callout(msg, bot):
         reply_content = "干嘛（‘·д·）" + random.choice(REPLY_SUFFIX)
         reply(reply_content)
 
+    if "你好" in msg.content:
+        reply = bot.reply_msg(msg, return_function=True)
+        logger.info("RUNTIMELOG " + str(msg.from_uin) + " calling me out, trying to reply....")
+        reply_content = "我不好（‘·д·）" + random.choice(REPLY_SUFFIX)
+        reply(reply_content)
+
 
 # =====复读插件=====
 class Recorder(object):
