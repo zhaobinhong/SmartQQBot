@@ -5,6 +5,7 @@ import os
 import socket
 import sys
 import threading
+from importlib import reload
 
 from six import PY2
 from six import iteritems
