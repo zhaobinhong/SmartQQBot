@@ -93,4 +93,5 @@ Temporary Items
 .idea/inspectionProfiles/
 .idea/*
 .idea/
-cookie/
+*cookie/
+*.pyc
