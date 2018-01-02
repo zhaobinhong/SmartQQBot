@@ -91,3 +91,4 @@ Temporary Items
 .apdisk
 ### Python template
 .idea/inspectionProfiles/
+.idea/*
