@@ -3,7 +3,6 @@
   "plugin_on": [
       "basic",
       "manager",
-      "weather",
-      "turing_robot"
+      "weather"
   ]
 }
